@@ -1,33 +1,22 @@
 {
-   "messageInformation":{
-      "messageId":"299fb1fdf1ec47e48e5a2fe063fc01b0",
-      "createDateTime":"2022-01-11T07:58:56.061Z",
-      "numberOfTransactions":"1",
-      "initiatingPtyId":"010080"
-   },
-   "transactionInformation":{
-      "endToEndId":"7jhg5eab35a542e085add0363a4423o6",
-      "instructionId":"98dj4eab35a542e085add0363a40jk564",
-      "paymentMethod":"TRF",
-      "requestedExecutionDate":"2022-01-12",
-      "amountModificationAllowed":true,
-      "earlyPaymentAllowed":false,
-      "delayPenalty":"10% of pending value",
-      "guaranteedPaymentRequested":true,
-      "mandateId":"423648723462932873",
-      "instructedAmount":{
-         "ccy":"USD",
-         "value":100.2
-      },
-      "billPeriodStartDate":"2021-12-20",
-      "billPeriodEndDate":"2022-12-20"
-   },
-   "debtorInformation":{
-      "debtorLEI":"Altimetrik India Pvt Ltd",
-      "debtorAccount":"0000000000362"
-   },
-   "creditorInformation":{
-      "creditorName":"BPX-Investpet2021Biller",
-      "creditorId":"0000000363"
+   "glossary": {
+       "title": "example glossary",
+     "GlossDiv": {
+           "title": "S",
+        "GlossList": {
+               "GlossEntry": {
+                   "ID": "SGML",
+              "SortAs": "SGML",
+              "GlossTerm": "Standard Generalized Markup Language",
+              "Acronym": "SGML",
+              "Abbrev": "ISO 8879:1986",
+              "GlossDef": {
+                       "para": "A meta-markup language, used to create markup languages such as DocBook.",
+                 "GlossSeeAlso": ["GML", "XML"]
+                   },
+              "GlossSee": "markup"
+               }
+           }
+       }
    }
 }
